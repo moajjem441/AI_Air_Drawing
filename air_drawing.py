@@ -2,6 +2,7 @@ import cv2
 import mediapipe as mp
 import numpy as np
 
+
 # Mobile camera URL (তোমার IP)
 cap = cv2.VideoCapture("http://192.168.0.106:4747/video")
 
