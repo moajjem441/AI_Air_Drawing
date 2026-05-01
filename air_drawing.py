@@ -56,7 +56,7 @@ while True:
 
             mp_draw.draw_landmarks(frame, hand_landmarks, mp_hands.HAND_CONNECTIONS)
 
-    # Merge canvas + frame
+    # Merge  canvas + frame
     gray = cv2.cvtColor(canvas, cv2.COLOR_BGR2GRAY)
     _, inv = cv2.threshold(gray, 50, 255, cv2.THRESH_BINARY_INV)
     inv = cv2.cvtColor(inv, cv2.COLOR_GRAY2BGR)
