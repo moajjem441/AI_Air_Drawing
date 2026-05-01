@@ -32,7 +32,7 @@ while True:
         for hand_landmarks in result.multi_hand_landmarks:
             h, w, c = frame.shape
 
-            # Index finger tip
+            # Index finger  tip
             x = int(hand_landmarks.landmark[8].x * w)
             y = int(hand_landmarks.landmark[8].y * h)
 
