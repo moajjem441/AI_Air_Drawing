@@ -69,6 +69,7 @@ while True:
     key = cv2.waitKey(1)
 
     # Press 'c' to clear
+    
     if key == ord('c'):
         canvas = np.zeros((480, 640, 3), dtype=np.uint8)
 
