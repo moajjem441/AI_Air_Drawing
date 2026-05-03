@@ -76,6 +76,7 @@ while True:
     # Press 'q' to quit
     if key == ord('q'):
         break
+    
 
 cap.release()
 cv2.destroyAllWindows()
