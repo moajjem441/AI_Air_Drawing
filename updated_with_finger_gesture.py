@@ -105,7 +105,10 @@ import mediapipe as mp
 import numpy as np
 
 # Camera (mobile)
-cap = cv2.VideoCapture("http://192.168.0.106:4747/video")
+# cap = cv2.VideoCapture("http://192.168.0.106:4747/video")
+
+#for usb connection 
+cap = cv2.VideoCapture(0)
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(min_detection_confidence=0.7, min_tracking_confidence=0.7)
