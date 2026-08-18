@@ -107,6 +107,7 @@ import numpy as np
 # Camera (mobile)
 # cap = cv2.VideoCapture("http://192.168.0.106:4747/video")
 
+
 #for usb connection 
 cap = cv2.VideoCapture(0)
 
