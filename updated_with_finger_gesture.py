@@ -99,7 +99,6 @@
 
 
 
-
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -202,6 +201,7 @@ while True:
 
     if key == ord('q'):
         break
+
 
 cap.release()
 cv2.destroyAllWindows()
