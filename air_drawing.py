@@ -3,8 +3,10 @@ import mediapipe as mp
 import numpy as np
 
 
+
 # Mobile camera URL (my IP)
 # cap = cv2.VideoCapture("http://192.168.0.106:4747/video")
+
 
 #for usb connection with droid and mobile
 cap = cv2.VideoCapture(0)
